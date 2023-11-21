@@ -62,3 +62,25 @@ text-align: center;
 padding: 10px;
 
 }
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+.check{
+    color: green;
+}
+
+.otimes{
+    color: red;
+}
+
+.arrow{
+    font-size: small;
+}
+
+main{
+    margin-left: 37px;
+
+}
