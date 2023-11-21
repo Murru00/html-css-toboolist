@@ -14,19 +14,21 @@ vertical-align: middle;
 }
 
 body{
-    background-color: rgb(0, 236, 244);
+    background-color: rgb(206, 253, 255);
 }
 
 .border-box{
     border: 1px solid black;
     background-color: white;
    border-style: solid;
-   height: 600px;
+   height: 638px;
    width: 800px;
    border-radius: 5%;
    margin-block-start: 70px;
    margin-left: 270px;
    vertical-align: middle;
+  
+   
    
 }
 
@@ -43,25 +45,33 @@ border: 1px solid;
 width: 140px;
 height: 40px;
 border-radius: 10px;
-background-color: blue;
-margin-top: 15px;
-margin-left: 20px;
+background-color: rgb(102, 102, 237);
+color: white;
+padding-top: 10px;
 text-align: center;
-padding: 10px;
+padding: 0px;
+margin-left: 20px;
+margin-top: 15px;
+display: inline-block;
 
 }
 .section{
-border: 1px solid;    
-width: 140px;
-height: 40px;
-border-radius: 10px;
-background-color: rgb(255, 255, 255);
-margin-top: 15px;
-margin-left: 20px;
-text-align: center;
-padding: 10px;
+    border: 1px solid;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(205, 205, 205);
+    padding-top: 10px;
+    text-align: center;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline-block;
 
 }
+
+/* Unordered list*/
 
 li{
     list-style: none;
@@ -83,4 +93,63 @@ li{
 main{
     margin-left: 37px;
 
+}
+
+.editorial{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(102, 102, 237) ;
+    color: white;
+}
+.Q1{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(165, 84, 168) ;
+    color: white;
+}
+
+.recruiting{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(74, 152, 90) ;
+    color: white;
+}
+
+.Mobile{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(195, 108, 27) ;
+    color: white;
+}
+
+.website{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 98, 200) ;
+    color: white;
+}
+
+.sales{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: x-small;
+    width: 80px;
+    height: 30px;
+    background-color:goldenrod ;
+    color: white;
 }
